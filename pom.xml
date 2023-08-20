@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.oijon</groupId>
+  <artifactId>jsca</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JSCA</name>
+  <description>Java Sound Change Applier</description>
+  <url>https://oijon.net/utils</url>
+  
+  <properties>
+		<jdk.version>11</jdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
+	
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/net.oijon/utils -->
+		<dependency>
+		    <groupId>net.oijon</groupId>
+		    <artifactId>utils</artifactId>
+		    <version>1.2.4</version>
+		</dependency>
+    </dependencies>
+</project>
